@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuación Cuadrática</title>
+</head>
+<body>
+    <h1>Calculadora de Ecuación</h1>
+
+    <!-- Formulario -->
+    <form id="formEcuaciones">
+        <div>
+            <label for="a">Ingrese A:</label>
+            <input type="number" id="a" step="any" required>
+        </div>
+        <br>
+        <div>
+            <label for="b">Ingrese B:</label>
+            <input type="number" id="b" step="any" required>
+        </div>
+        <br>
+        <div>
+            <label for="c">Ingrese C:</label>
+            <input type="number" id="c" step="any" required>
+        </div>
+        <br>
+        <button type="submit" id="btnCalcular">Calcular</button>
+    </form>
+
+    <h2>Respuesta:</h2>
+    <!-- Div donde aparecerá la respuesta -->
+    <div id="resultado" style="padding: 15px; border: 2px solid #333; background-color: #f0f0f0; margin-top: 10px; font-size: 18px;">
+        Esperando valores...
+    </div>
+
+    <!-- Script conectado directamente -->
+    <script src="ejemplo.js"></script>
+</body>
+</html>
